@@ -19,7 +19,7 @@ RENAME COLUMN Department TO DeptName;
 --5.Create a new table called "Projects" with columns for ProjectID (integer) and ProjectName (varchar).
 CREATE TABLE Projects (
     ProjectID INT,
-    ProjectName VARCHAR(255)
+    ProjectName VARCHAR(200)
 );
 --6.Add a primary key constraint to the "Employees" table for the "ID" column.
 ALTER TABLE Employees
